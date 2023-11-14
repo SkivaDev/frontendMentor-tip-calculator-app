@@ -4,7 +4,7 @@ function App() {
   return (
     <main className="w-full h-screen flex justify-center items-center bg-dark-blue">
       <div className="flex flex-col gap-8 max-w-[33.7rem] m-[1.3rem] mb-[4rem]">
-        <div className="w-full text-center">
+        <div className="w-full text-center text-[1.25rem]">
           <h1>
             SPLI
             <br />
@@ -13,7 +13,7 @@ function App() {
         </div>
 
         <div className="w-full h-[400px] grid grid-cols-2 p-[1rem] bg-white text-center rounded-xl gap-7">
-          <div className=" bg-black h-full">
+          <div className="  h-full">
             <div>
               <h2>Bill</h2>
               <div>
