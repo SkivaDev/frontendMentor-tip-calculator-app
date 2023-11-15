@@ -18,11 +18,11 @@ function App() {
           <div className="flex flex-col justify-between h-full">
             <div className="w-full flex flex-col items-start gap-3">
               <h2 className="text-dark-grayish-cyan">Bill</h2>
-              <div className="flex gap-1 items-center justify-between w-full px-[15px] py-[8px] bg-slate-100 rounded-md h-[3rem]">
-                <span>
+              <div className="relative w-full bg-slate-100 rounded-md h-[3rem]">
+                <span className="absolute w-4 h-4 top-[15px] left-[15px]">
                   <img src={dollar} alt="dollar icon" />
                 </span>
-                <input type="text" className="bg-transparent text-right outline-none text-[24px] text-very-dark-cyan" />
+                <input type="text" className="bg-transparent w-full h-full text-right  text-[24px] text-very-dark-cyan px-[15px] py-[8px] pl-[40px] outline-strong-cyan" />
               </div>
             </div>
             <div className="w-full flex flex-col items-start gap-3">
@@ -35,18 +35,18 @@ function App() {
                 <div className=" py-[9px] bg-very-dark-cyan hover:bg-strong-cyan rounded-md">50%</div>
                 <input
                   type="text"
-                  className="text-center py-[5px] bg-slate-100 rounded-md outline-none text-very-dark-cyan"
+                  className="text-center py-[5px] bg-slate-100 rounded-md outline-strong-cyan text-very-dark-cyan"
                   placeholder="Custom"
                 />
               </div>
             </div>
             <div className="w-full flex flex-col items-start gap-3">
               <h2 className="text-dark-grayish-cyan">Number of people</h2>
-              <div className="flex gap-1 justify-between items-center w-full px-[15px] py-[8px] bg-slate-100 rounded-md h-[3rem]">
-                <span>
+              <div className="relative w-full bg-slate-100 rounded-md h-[3rem]">
+                <span className="absolute w-4 h-4 top-[15px] left-[15px]">
                   <img src={person} alt="person icon" />
                 </span>
-                <input type="text" className="bg-transparent text-right outline-none text-[24px] text-very-dark-cyan" />
+                <input type="text" className="bg-transparent w-full h-full text-right  text-[24px] text-very-dark-cyan px-[15px] py-[8px] pl-[40px] outline-strong-cyan" />
               </div>
             </div>
           </div>
