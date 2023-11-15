@@ -21,4 +21,9 @@
   .btn:hover {
     box-shadow: 0 0.875rem 1.75rem rgba(82, 255, 168, 0.25), 0 0.625rem 0.625rem rgba(82, 255, 168, 0.22);
   }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    display: none;
+  }
 }
