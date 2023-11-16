@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -26,11 +23,10 @@ export default {
         "strong-cyan": "hsl(172, 67%, 45%)",
       },
       screens: {
-        "lg": "970px",
-        "sm": "450px",
-      }
+        lg: "970px",
+        sm: "450px",
+      },
     },
   },
   plugins: [],
-}
-
+};
